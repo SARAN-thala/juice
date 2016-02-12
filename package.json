@@ -1,0 +1,31 @@
+{
+  "name": "juice",
+  "version": "1.0.0",
+  "description": "Juice Data Analysis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "min": "mocha -R min --recursive",
+    "watch": "mocha -R min --watch --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SARAN-thala/juice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SARAN-thala/juice/issues"
+  },
+  "homepage": "https://github.com/SARAN-thala/juice#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
